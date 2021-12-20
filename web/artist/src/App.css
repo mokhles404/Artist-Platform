@@ -1,0 +1,28 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.shadow{
+    border-radius: 52px;
+background: #e0e0e0;
+box-shadow:  35px 35px 70px #7d7d7d,
+             -35px -35px 70px #ffffff;
+             background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.playlist {
+    width: "10vw";
+    height: "600px";
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
